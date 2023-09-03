@@ -1,0 +1,209 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>1-02 Web Quest</title>
+    <meta charset="utf-8">
+</head>
+<style>
+    /*Area1*/
+    #top {
+        margin: 0 auto;
+        margin-top: 30px;
+        width: 1000px;
+        height: 500px;
+        background-color: fuchsia;
+        position: relative;
+    }
+
+    .top_left {
+        width: 750px;
+        height: 500px;
+        background-color: blue;
+        float: left;
+
+    }
+
+    .top_right {
+        width: 250px;
+        height: 500px;
+        background-color: gold;
+        float: left;
+
+    }
+
+    #top_box {
+        width: 210px;
+        height: 210px;
+        background-color: rgba(26, 122, 26, 0.8);
+        float: left;
+        position: absolute;
+        bottom: 0;
+        padding: 20px;
+
+    }
+
+    #title {
+        font-weight: 700;
+        font-size: large;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        line-height: 20px;
+        padding: 0;
+        margin: 0;
+        margin-bottom: 20px;
+    }
+
+    #detail {
+        font-size: small;
+        font-weight: 500;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        line-height: 20px;
+        padding: 0;
+
+    }
+
+    /*Area2*/
+    #box_all {
+        margin: 0 auto;
+        width: 1000px;
+    }
+
+    .box_left {
+        width: 750px;
+        height: 500px;
+        float: left;
+
+    }
+
+    .box_right {
+        width: 210px;
+        height: 460px;
+        background-color: rgb(251, 251, 96);
+        float: left;
+        padding: 20px;
+    }
+
+    .box {
+        width: 210px;
+        height: 210px;
+        padding: 20px;
+        float: left;
+    }
+
+    .box:nth-child(2n) {
+        background-color: rgba(231, 122, 27, 0.895);
+    }
+
+    .box:nth-child(2n-1) {
+        background-color: rgba(105, 85, 69, 0.895);
+    }
+
+    #box_all p{
+        margin-top: 0;
+    }
+    #ti {
+        font-size: large;
+        font-weight: bold;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    #de {
+        font-size: small;
+        font-weight: 500;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    }
+    #num {
+        font-weight: bold;
+        font-size: small;
+    }
+
+    /*Area3*/
+    #footer {
+        width: 1000px;
+        height: 40px;
+        background-color: pink;
+        margin: 0 auto;
+        clear: both;
+
+    }
+
+    .f_left {
+        width: 750px;
+        height: 40px;
+        background-color: rgb(117, 117, 117);
+        position: absolute;
+
+    }
+
+    #foot {
+        float: left;
+        text-align: center;
+        border-right: 2px solid rgba(231, 122, 27, 0.895);
+        padding: 0 23px 0 23px;
+        font-size: 10px;
+        font-weight: 900;
+        margin-top: 13px;
+    }
+</style>
+
+<body>
+
+    <div id="top">
+        <div class="top_left">
+            <img src="chef_about.png">
+        </div>
+        <div class="top_right">
+            <img src="right1.png" style="vertical-align: top;">
+            <img src="right2.png">
+        </div>
+        <div id="top_box">
+            <p id="title">GLOBAL<br>BUSINESS<br></p>
+            <p id="detail">
+                afdosfjeojfiwfjefiojfajoiefwoef<br>fjoejsjifoejseiofjsoie<br>fjeoijsojfeojfsoijfeofjsoijf<br>fjsojfoeisjoifjseofjosejfoisej
+            </p>
+        </div>
+    </div>
+
+    <div id="box_all">
+        <div class="box_left">
+            <div class="box">
+                <p id="ti">TITLE</p>
+                <p id="de">ajfoeajefijsofijfosjefoijs efjsofj<br>djofjsojofijsojf ejfosjdj osjf</p>
+            </div>
+            <div class="box">
+                <p id="ti">TITLE</p>
+                <p id="de">ajfoeajefijsofijfosjefoijs efjsofj<br>djofjsojofijsojf ejfosjdj osjf</p>
+            </div>
+            <div class="box">
+                <p id="num">3</p>
+            </div>
+            <div class="box">
+                <p id="num">4</p>
+            </div>
+            <div class="box">
+                <p id="num">5</p>
+            </div>
+            <div class="box">
+                <p id="num">6</p>
+            </div>
+        </div>
+        <div class="box_right">
+            <p id="num">7</p>
+        </div>
+    </div>
+
+    <div id="footer">
+        <div class="f_left">
+            <p id="foot">법적고지</p>
+            <p id="foot">이메일무단수집거부</p>
+            <p id="foot">이용약관</p>
+            <p id="foot">개인정보취급관리</p>
+            <p id="foot">고객센터</p>
+            <p id="foot">입찰공고</p>
+        </div>
+    </div>
+
+</body>
+
+</html>
